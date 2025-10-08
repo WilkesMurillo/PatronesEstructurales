@@ -1,8 +1,8 @@
-# Patrones Estructurales en Java 🧩
+# Patrones Estructurales en Java
 
 Este proyecto demuestra dos patrones estructurales implementados en **Java** siguiendo los principios **SOLID**:
 
-## 📂 Estructura
+## Estructura
 src/
 └── main/
 └── java/
@@ -10,9 +10,9 @@ src/
 └── decorator/ → Patrón Decorator (Almacenamiento con cifrado y compresión)
 
 
-## 🧠 Descripción
+## Descripción
 
-### 🧩 Patrón Adapter
+### Patrón Adapter
 Permite adaptar una interfaz REST para que se comunique con un servicio SOAP externo, sin modificar la lógica existente.
 
 **Clases principales:**
@@ -21,7 +21,7 @@ Permite adaptar una interfaz REST para que se comunique con un servicio SOAP ext
 - `FacturaValidatorSOAPAdapter`
 - `ServicioSOAPExterno`
 
-### 🧩 Patrón Decorator
+### Patrón Decorator
 Permite agregar funcionalidades adicionales a un componente de almacenamiento (como compresión o cifrado) sin modificar su estructura base.
 
 **Clases principales:**
@@ -30,6 +30,6 @@ Permite agregar funcionalidades adicionales a un componente de almacenamiento (c
 - `AlmacenadorComprimido`
 - `AlmacenadorCifrado`
 
-## 🚀 Ejecución
+## Ejecución
 Ejecutar las clases `MainAdapterDemo` y `MainDecoratorDemo` para observar el funcionamiento por consola.
 
